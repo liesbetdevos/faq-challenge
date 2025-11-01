@@ -1,3 +1,4 @@
+/*Whole page*/
 body {
     margin: 0px;
     font-family: inter;
@@ -5,63 +6,79 @@ body {
     color: #030616;
 }
 
+/*Title header*/
 section.header {
     text-align: center;
     padding: 40px 0px;
-    background-color: #FFFFFF;
+    /*whole page is colored light-grey except for the title header, which is white*/
+    background-color: #FFFFFF; 
 }
 
+/*Title*/
 h1 {
     font-size: 2.25rem;
     font-weight: 600;
     margin-bottom: 0px;
 }
 
+/*Questions*/
 h2 {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 30px;
 }
 
+/*main text*/
 p {
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 30px;
 }
 
+/*lists*/
 ol, ul {
     margin-bottom: 30px;
 }
 
+/*list-items*/
 li {
     margin-bottom: 15px;
 }
 
+/*hyperlinks*/
 a {
     color: #4E80EE;
+    /*remove the underlining of the hyperlink*/
     text-decoration: none;
 }
+
+/*the main section*/
 section.main {
+    /*make the main section a flexbox so that the embedded div can easily be centered*/
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
+/*block containing question-blocks*/
 .question-blocks {
     width: 600px;
     margin: 40px;
 }
 
+/*bold text*/
 span.bold {
     font-weight: bold;
 }
 
+/*horizontal lines*/
 hr {
     margin: 60px 0px;
     color: #D2D5DA;
 }
 
+/* author info at bottom*/
 .author-info {
     font-size: 14px;
     text-align: center;
